@@ -1,0 +1,105 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.navbar-left{
+    padding-left: 20px;
+    height: 9%;
+    
+    width:10px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: end;
+}
+.a-element{
+    padding: 10px;
+    margin:10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:80vh;
+    
+}
+.home-left{
+    width: 50vw;
+    text-align:center;
+    padding-left: 150px;
+    font-style: italic;
+}
+.home-right{
+    width:50px;
+    height:50px;
+    padding-left: 100px;
+}
+.logo-image{
+    height:55px;
+}
+.img1{
+    height: 150px;
+    width:150px;
+    margin-left: -500px;
+    margin-top: -50px;
+}
+.home-p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.services{
+    padding:50px;
+    text-align: center;
+}
+.ser-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:green;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-style: bold;
+}
+.services-sub-cont{
+    display: flex;
+    flex-direction: row;
+    
+}
+.services-card{
+    border:2px rgb(19, 25, 146) solid;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+.sc-h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+
+}
+.sc-p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+}
+.social-icon-img{
+    height: 90px;
+    padding: 20px;
+}
+.test-logo{
+    height:50px;
+}
+body {
+    background-color: rgb(255, 255, 38);
+}
